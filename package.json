@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-p2p",
+  "name": "psiacore-p2p",
   "version": "0.15.1",
-  "description": "Interface to the bitcoin P2P network for bitcore",
+  "description": "Interface to the bitcoin P2P network for psiacore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -45,20 +45,20 @@
   ],
   "keywords": [
     "bitcoin",
-    "bitcore"
+    "psiacore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-p2p.git"
+    "url": "https://github.com/phplaboratory/psiacore-p2p.git"
   },
   "dependencies": {
-    "bitcore": "^0.13.0",
+    "psiacore": "git+https://git@github.com:phplaboratory/bitcore.git#b61af62f903e90cd1b0341715801edda32847bfa",
     "bloom-filter": "^0.2.0",
     "buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "psiacore-build": "git+https://git@github.com/phplaboratory/psiacore-build.git#c31b09b6509295d3bdea8c0d257a83dc89a60910",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
